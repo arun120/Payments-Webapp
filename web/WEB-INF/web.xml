@@ -4,9 +4,33 @@
         <servlet-name>addTransaction</servlet-name>
         <servlet-class>addTransaction</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>deposite</servlet-name>
+        <servlet-class>deposite</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>withdraw</servlet-name>
+        <servlet-class>withdraw</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>signup</servlet-name>
+        <servlet-class>signup</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>addTransaction</servlet-name>
         <url-pattern>/addTransaction</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>deposite</servlet-name>
+        <url-pattern>/deposite</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>withdraw</servlet-name>
+        <url-pattern>/withdraw</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>signup</servlet-name>
+        <url-pattern>/signup</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
