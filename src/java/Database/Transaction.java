@@ -101,7 +101,7 @@ public class Transaction {
         Connection conbatch=null;
         Statement stmt=null;
         try{
-         conbatch = new Dbdetails().getConnection("Axis");
+         conbatch = new Dbdetails().getConnection("account");
                      stmt = conbatch.createStatement();
                     ResultSet rs=stmt.executeQuery("select * from transaction");
                     
